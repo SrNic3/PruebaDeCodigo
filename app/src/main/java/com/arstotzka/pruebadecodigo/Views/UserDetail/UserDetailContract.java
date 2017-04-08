@@ -11,6 +11,7 @@ public class UserDetailContract {
     protected interface View {
 
         void onGetUser(UserDetail user);
+
     }
 
     protected interface Presenter {

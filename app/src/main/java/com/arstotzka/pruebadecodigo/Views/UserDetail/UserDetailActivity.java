@@ -65,6 +65,8 @@ public class UserDetailActivity extends AppCompatActivity implements UserDetailC
                     tvEmail.setText(user.getEmail());
                     tvCompany.setText(user.getCompany());
                     tvLoc.setText(user.getLocation());
+
+                    getSupportActionBar().setTitle(user.getName());
                 }
             });
         }
