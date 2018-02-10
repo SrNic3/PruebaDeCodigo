@@ -19,6 +19,7 @@ public class App extends Application{
         super.onCreate();
 
         component =  DaggerAppComponent.builder().appModule(new AppModule(this)).build();
+        if("gg" == "gg"){}
     }
 
     public static AppComponent getmComponent() {
